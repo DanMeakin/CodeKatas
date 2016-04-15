@@ -64,7 +64,7 @@ gradle-app.setting
 # Gradle
 # ------
 .gradle
-/build
+build/
 /buildSrc/build
 /subprojects/*/build
 /subprojects/docs/src/samples/*/*/build
@@ -83,3 +83,6 @@ gradle-app.setting
 /out
 /subprojects/*/*.iml
 /subprojects/*/out
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
