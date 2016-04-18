@@ -54,4 +54,9 @@ public class BinaryChopTest {
     public void testBinaryChopD() {
         chopTester(new BinaryChopD());
     }
+
+    @Test
+    public void testBinaryChopE() {
+        chopTester(new BinaryChopE());
+    }
 }
